@@ -1,0 +1,19 @@
+WALMART
+Receipt #12345
+Date: 12/15/2023
+Time: 14:30
+
+Items:
+- Groceries $45.67
+- Electronics $12.34
+Subtotal: $58.01
+Tax: $4.64
+Total: $62.65
+
+Payment Method: Credit Card
+Card ending in: ****1234
+
+Thank you for shopping at Walmart!
+Store #1234
+123 Main Street
+Anytown, USA 

@@ -1,0 +1,16 @@
+Date,Description,Amount,Type,Category
+12/14/2023,WALMART PURCHASE,58.01,debit,Retail
+12/15/2023,STARBUCKS COFFEE,7.75,debit,Food & Dining
+12/16/2023,TARGET ELECTRONICS,89.99,debit,Electronics
+12/17/2023,MCDONALDS BURGER,12.45,debit,Food & Dining
+12/18/2023,UBER RIDE,25.00,debit,Transportation
+12/19/2023,NETFLIX SUBSCRIPTION,15.99,debit,Entertainment
+12/20/2023,AMAZON PURCHASE,45.67,debit,Online Shopping
+12/21/2023,SALARY DEPOSIT,2500.00,credit,Income
+12/22/2023,SPOTIFY PREMIUM,9.99,debit,Entertainment
+12/23/2023,LYFT RIDE,18.50,debit,Transportation
+12/24/2023,GROCERY STORE,67.89,debit,Food & Dining
+12/25/2023,GAS STATION,45.23,debit,Transportation
+12/26/2023,PHARMACY,23.45,debit,Healthcare
+12/27/2023,RESTAURANT,89.99,debit,Food & Dining
+12/28/2023,ONLINE SHOPPING,156.78,debit,Online Shopping 

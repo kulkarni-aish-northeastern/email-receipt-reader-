@@ -1,0 +1,19 @@
+STARBUCKS COFFEE
+Receipt #67890
+Date: 12/15/2023
+Time: 09:15
+
+Items:
+- Grande Latte $4.75
+- Muffin $3.00
+Subtotal: $7.75
+Tax: $0.62
+Total: $8.37
+
+Payment Method: Mobile App
+Transaction ID: SB123456
+
+Thank you for choosing Starbucks!
+Store #5678
+456 Coffee Lane
+Brewtown, USA 

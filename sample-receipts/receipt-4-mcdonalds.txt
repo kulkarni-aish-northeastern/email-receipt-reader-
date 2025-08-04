@@ -1,0 +1,19 @@
+MCDONALDS BURGER
+Receipt #22222
+Date: 12/17/2023
+Time: 12:30
+
+Items:
+- Big Mac Meal $8.99
+- French Fries $3.46
+Subtotal: $12.45
+Tax: $0.99
+Total: $13.44
+
+Payment Method: Cash
+Change: $6.56
+
+Thank you for choosing McDonald's!
+Store #3333
+321 Fast Food Ave
+Burger Town, USA 

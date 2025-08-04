@@ -1,0 +1,19 @@
+TARGET ELECTRONICS
+Receipt #11111
+Date: 12/16/2023
+Time: 16:45
+
+Items:
+- Wireless Headphones $79.99
+- Phone Case $10.00
+Subtotal: $89.99
+Tax: $7.20
+Total: $97.19
+
+Payment Method: Debit Card
+Card ending in: ****5678
+
+Thank you for shopping at Target!
+Store #9999
+789 Shopping Center
+Retail City, USA 
