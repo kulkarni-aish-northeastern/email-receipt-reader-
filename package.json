@@ -4,7 +4,7 @@
   "description": "A system to read email receipts, parse PDFs, and manage ledger entries",
   "main": "server/index.js",
   "engines": {
-    "node": "22.x"
+    "node": "18.x"
   },
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
