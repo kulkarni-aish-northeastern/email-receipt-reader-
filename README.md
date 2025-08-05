@@ -22,11 +22,6 @@ A comprehensive full-stack application that automatically reads emails for PDF r
 - **Flexible Matching**: Amount and date-based comparison with tolerance
 - **Three-column View**: Matches, Ledger Only, Bank Only
 
-### 🎨 **Beautiful UI/UX**
-- **Modern Design**: Clean, professional interface
-- **Responsive**: Works on all devices
-- **Real-time Feedback**: Loading states and success/error messages
-- **Color-coded Categories**: Visual organization of transactions
 
 ## 🛠️ Technology Stack
 
@@ -76,7 +71,7 @@ A comprehensive full-stack application that automatically reads emails for PDF r
    - Password (use App Password for Gmail with 2FA)
    - IMAP host and port (auto-filled for major providers)
 
-### Gmail Setup (Recommended)
+### Gmail Setup 
 
 1. **Enable 2-Factor Authentication** on your Google account
 2. **Generate an App Password**:
@@ -187,69 +182,9 @@ PORT=5001
 NODE_ENV=production
 ```
 
-## 🔒 Security Features
 
-- **Password Encryption**: Email passwords stored securely
-- **IMAP TLS**: Secure email connections
-- **Input Validation**: All inputs validated and sanitized
-- **Error Handling**: Comprehensive error handling and logging
-
-## 🎨 UI/UX Highlights
-
-### Design Principles
-- **Customer Empathy**: Intuitive workflows for non-technical users
-- **Creative Design**: Modern, professional interface
-- **Detail-Oriented**: Comprehensive feedback and status indicators
-- **Accessibility**: Responsive design for all devices
-
-### Key Features
-- **Drag & Drop Upload**: Intuitive file handling
-- **Real-time Feedback**: Loading states and progress indicators
-- **Color-coded Categories**: Visual transaction organization
-- **Responsive Navigation**: Mobile-friendly interface
-- **Error Recovery**: Clear error messages and recovery options
-
-## 🔄 Automatic Processing
-
-### Email Processing Schedule
-- **Frequency**: Every 5 minutes
-- **Scope**: Unread emails with PDF attachments
-- **Processing**: Automatic parsing and ledger entry creation
-- **Status**: Real-time processing feedback
-
-### Manual Triggers
-- **Test Connection**: Verify email settings
-- **Process Now**: Manual email processing
-- **Refresh Data**: Update ledger and bank data
-
-## 📈 Future Enhancements
-
-- **OCR Integration**: Better receipt text extraction
-- **Machine Learning**: Improved merchant recognition
-- **Export Features**: PDF/Excel report generation
-- **Multi-language Support**: International receipt formats
-- **Cloud Storage**: Receipt file storage in cloud
-- **Mobile App**: Native mobile application
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
 
 ## 📄 License
 
 MIT License - see LICENSE file for details
 
-## 🎉 Ready to Impress!
-
-This complete implementation demonstrates:
-- **Technical Excellence**: Full-stack development with modern technologies
-- **Beautiful UI/UX**: Professional, intuitive interface
-- **Smart Business Logic**: Intelligent transaction matching
-- **Production Quality**: Comprehensive error handling and validation
-- **Complete Functionality**: All requirements met and exceeded
-
-**The application is ready for production deployment and will definitely impress!** 🚀 
