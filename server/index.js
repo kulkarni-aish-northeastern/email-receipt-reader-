@@ -35,7 +35,11 @@ const storage = multer.diskStorage({
 const upload = multer({ 
   storage: storage,
   fileFilter: (req, file, cb) => {
-    if (file.mimetype === 'application/pdf' || file.mimetype === 'text/csv') {
+    if (file.mimetype === 'application/pdf' || 
+        file.mimetype === 'text/csv' || 
+        file.mimetype === 'application/csv' ||
+        file.originalname.endsWith('.csv') ||
+        file.originalname.endsWith('.pdf')) {
       cb(null, true);
     } else {
       cb(new Error('Only PDF and CSV files are allowed!'), false);
