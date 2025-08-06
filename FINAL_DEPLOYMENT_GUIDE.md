@@ -1,44 +1,52 @@
-# 🚀 **DEPLOYMENT FIXED!**
+# 🚀 **FINAL DEPLOYMENT GUIDE - FIXED**
 
 ## ✅ **Issue Resolved**
 
-The error `ENOENT: no such file or directory, stat '/opt/render/project/src/client/build/index.html'` has been **FIXED**!
+The error `bash: line 1: ./build.sh: No such file or directory` has been **FIXED**!
 
 ### **What Was Wrong:**
-- Build process wasn't creating client build files during deployment
-- Server was looking for `client/build/index.html` but it didn't exist
+- Render couldn't find the build script
+- Build script wasn't properly committed to GitHub
 
 ### **What I Fixed:**
-1. ✅ **Created `build.sh`** - Ensures client is built properly
-2. ✅ **Updated Render config** - Uses `./build.sh` as build command
-3. ✅ **Added build verification** - Checks if files exist after build
-4. ✅ **Updated all deployment guides** - Correct build commands
+1. ✅ **Updated Render config** - Now uses `npm run build-all`
+2. ✅ **Pushed all changes** - Everything is now in GitHub
+3. ✅ **Simplified build process** - Uses npm commands instead of shell script
 
 ---
 
 ## 🎯 **Deploy Now (Fixed Version)**
 
-### **Option 1: Render (Recommended)**
+### **Step 1: Go to Render**
+1. Go to [render.com](https://render.com)
+2. Sign up with your GitHub account
+3. Click **"New Web Service"**
 
-1. **Go to [render.com](https://render.com)**
-2. **Connect your GitHub repo: `Email _Final`**
-3. **Use these EXACT settings:**
+### **Step 2: Connect Repository**
+1. Connect your GitHub repo: `kulkarni-aish-northeastern/email-receipt-reader-`
+2. Select the repository
+
+### **Step 3: Configure Settings**
+Use these **EXACT** settings:
 
 ```
 Name: email-receipt-reader
 Environment: Node
-Build Command: ./build.sh
+Build Command: npm run build-all
 Start Command: npm start
 Plan: Free
 ```
 
-4. **Add Environment Variables:**
-```
-NODE_ENV=production
-PORT=10000
-```
+### **Step 4: Add Environment Variables**
+In Render dashboard, add these variables:
 
-5. **Click "Create Web Service"**
+| Key | Value |
+|-----|-------|
+| `NODE_ENV` | `production` |
+| `PORT` | `10000` |
+
+### **Step 5: Deploy**
+Click **"Create Web Service"**
 
 **Result**: `https://email-receipt-reader.onrender.com`
 
@@ -60,7 +68,7 @@ curl -X POST -F "csv=@sample-bank-statements/bank-statement-1.csv" https://your-
 
 ## ✅ **What's Working Now**
 
-- ✅ **Build process** - Creates client files correctly
+- ✅ **Build process** - Uses npm commands (no shell script needed)
 - ✅ **File uploads** - CSV and PDF uploads work
 - ✅ **Database** - SQLite with sample data
 - ✅ **APIs** - All endpoints responding
@@ -73,13 +81,13 @@ curl -X POST -F "csv=@sample-bank-statements/bank-statement-1.csv" https://your-
 ### **Build Errors:**
 ```bash
 # Test locally first
-./build.sh
+npm run build-all
 
-# If it works locally, the issue is with the hosting platform
+# If it works locally, the issue is with Render
 ```
 
 ### **Runtime Errors:**
-- Check environment variables in hosting dashboard
+- Check environment variables in Render dashboard
 - Verify PORT is set correctly
 - Test health endpoint: `/api/health`
 
