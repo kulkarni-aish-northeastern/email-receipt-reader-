@@ -161,26 +161,6 @@ curl http://localhost:5001/api/compare-transactions
 3. **Upload CSV bank statements** to the Bank Comparison tab
 4. **Verify matching** in the comparison view
 
-## 🚀 Deployment
-
-### Vercel Deployment
-1. **Build the application**
-   ```bash
-   npm run build
-   ```
-
-2. **Deploy to Vercel**
-   ```bash
-   vercel --prod
-   ```
-
-3. **Configure environment variables** in Vercel dashboard
-
-### Environment Variables
-```env
-PORT=5001
-NODE_ENV=production
-```
 
 
 
